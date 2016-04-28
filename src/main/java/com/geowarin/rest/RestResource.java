@@ -22,7 +22,7 @@ public class RestResource {
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/hello")
     public String hello() {
-        return "Hello World good luck";
+        return "Hello World";
     }
 
     @GET
